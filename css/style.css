@@ -1,0 +1,95 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url('../images/bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 15px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active,
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px;
+  border-radius: 8px;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  margin-top: auto;
+  width: 100%;
+  font-size: 14px;
+}
+
+footer::after {
+  content: "Website developed by dhanjee";
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+form input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
